@@ -1,3 +1,3 @@
-FROM 540129/Hallo
+FROM 540129/hallo
 RUN apt-get -y update 
 CMD Hallo
