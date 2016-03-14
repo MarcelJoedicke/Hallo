@@ -15,7 +15,7 @@ RUN apt-get install -y git
 RUN git clone https://github.com/MarcelJoedicke/Hallo.git
 
 #Wechseln in den Hallo Ordner
-cd Hallo
+RUN cd Hallo
 
 #als nächstes müsste ich kompilieren, dafür erstelle ich die hallo.o Datei aus der hallo.cpp Datei und Kompiliere Sie zu einen ausführbaren Programm
 RUN g++ hello.cpp -o Hallo
