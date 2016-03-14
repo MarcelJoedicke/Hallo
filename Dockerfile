@@ -18,7 +18,8 @@ RUN git clone https://github.com/MarcelJoedicke/Hallo.git
 RUN cd Hallo
 
 #als nächstes müsste ich kompilieren, dafür erstelle ich die hallo.o Datei aus der hallo.cpp Datei und Kompiliere Sie zu einen ausführbaren Programm
-RUN g++ hello.cpp -o Hallo
+#RUN g++ hello.cpp -o Hallo
+g++ -std=gnu++11 hello.cpp
 
 #Dann versuche ich die Datei auszuführen
 RUN ./versuch
