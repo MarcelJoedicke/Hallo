@@ -22,5 +22,7 @@ RUN cd Hallo
 #RUN g++ -std=gnu++11 hello.cpp
 RUN ls
 
+RUN cd Hallo
+
 #Dann versuche ich die Datei auszuführen
-RUN ./versuch
+RUN ./Hallo
