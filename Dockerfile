@@ -23,6 +23,7 @@ RUN cd Hallo
 RUN ls
 
 RUN cd Hallo
+RUN ls
 
 #Dann versuche ich die Datei auszuführen
 RUN ./Hallo
