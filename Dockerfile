@@ -17,5 +17,5 @@ RUN git clone https://github.com/MarcelJoedicke/Hallo.git
 #als nächstes müsste ich kompilieren, dafür erstelle ich die hallo.o Datei aus der hallo.cpp Datei und Kompiliere Sie zu einen ausführbaren Programm
 RUN g++ hello.cpp -o Hallo
 
-Dann versuche ich die Datei auszuführen
+#Dann versuche ich die Datei auszuführen
 RUN ./versuch
