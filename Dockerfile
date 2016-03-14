@@ -1,7 +1,13 @@
 #Ubuntu Linux Container
 FROM ubuntu:14.04
 
-#Installieren von Git
+#Installation der wichtigsten Ubuntu Komponenten
+RUN apt-get update -y
+
+#Installation von g++ zum kompilieren -y ist mal wieder zum Bestätigen von anfragen
+RUN apt-get install -y g++
+
+#Installieren von Git, das -y sagt aus das er die Frage ob er es installieren soll automatisch mit ja bestätigt
 RUN apt-get install -y git
 
 #Zur Ausführung von hello world, muss ich danach zuerst das repo ziehen dafür brauche ich den Token (lange Zahl da vor dem Doppelpunkt. Hinten kommt die Installationslokation
